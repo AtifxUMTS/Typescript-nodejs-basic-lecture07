@@ -40,7 +40,7 @@ interface Person {
   name: string;
   age: number;
 }
- 
+
 function greet2(person: Person) {
   return "Hello " + person.name;
 }
